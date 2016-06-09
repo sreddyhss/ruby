@@ -1,0 +1,2 @@
+module BashboardHelper
+end

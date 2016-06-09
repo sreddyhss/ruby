@@ -1,0 +1,14 @@
+<!--<h1>Bashboard#index</h1>
+<p>Find me in app/views/bashboard/index.html.erb</p> -->
+
+<h3>Taskbox</h3>
+
+<p><b>Some Info</b></p>
+
+<ol>
+	<li>
+		Total Clients : <%= @clients_count %> - <%= link_to "view clients", clients_path %> | <%= link_to "Add Client", new_client_path %>
+	</li>
+	<li>Total Projects : <%= @projects_count %></li>
+	<li>Total Tasks    : <%= @tasks_count %></li>
+</ol>
